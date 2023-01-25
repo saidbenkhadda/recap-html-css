@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+.login {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: white;
+}
+
+.img-login {
+    width: 50%;
+    height: 100vh; /*  pour prendre 100% de la hauteur de l'ecran */
+}
+.form {
+    display: block;
+    margin: auto;
+
+}
+
+form, label, input[text], button {
+    display: block;
+}
+.sign-in {
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 5px;
+    border: solid 0px;
+    padding: 10px;
+	border-radius: 5px;
+	color: white;
+	background-color: black;
+}
+
+.sign-in-google {
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 5px;
+    border: solid 1px;
+    padding: 10px;
+	border-radius: 5px;
+	color: black;
+	background-color: white;
+}
